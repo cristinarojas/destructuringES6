@@ -6,7 +6,7 @@ const person = {
   city: 'USA',
 };
 
-// cont { propertyOfTheObject, propertyOfTheObject } = object
+// const { propertyOfTheObject, propertyOfTheObject } = object
 const { firstName, secondName } = person; // Destructuring syntax
 
 console.log('firstName --->', firstName); // firstName ---> Cristina
